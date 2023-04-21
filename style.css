@@ -1,14 +1,37 @@
-.color { border-style: solid;
+body {
+  background-image: url("./img/a.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.color {
+  border-style: solid;
   border-color: black;
-  border-width: 1px;}
+  border-width: 1px;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /*
 https://www.youtube.com/watch?v=mEqfFw4jY7I
 */
 
-.bordas { border: 3px solid black;
+.board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.bordas {
+  border: 3px solid black;
   width: 210px;
-  height: 230px;
+  height: 210px;
 }
 
 
@@ -17,8 +40,34 @@ https://www.youtube.com/watch?v=mEqfFw4jY7I
   border: 1px solid black;
   width: 40px;
   height: 40px;
-  display: inline-block;
+  float: left
 }
+
+.containerColors{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  border: none;
+  margin: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  }
+
+.clean{
+  position: relative;
+  top: -60px;
+  left: 900px;
+  background-image: url("/img/trash.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
 
 .vermelho {
   background-color: red;
@@ -36,3 +85,4 @@ https://www.youtube.com/watch?v=mEqfFw4jY7I
 .preto {
   background-color: black;
 }
+
