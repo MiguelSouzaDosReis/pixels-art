@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <h1 id="title">Paleta de Cores</h1>
-    <div id="color-palette">
-        <button id="PRETO" class="color preto selected">Preto</button>
-        <button id="VERMELHO" class="color vermelho">Vermelho</button>
-        <button id="AMARELO" class="color amarelo">Amarelo</button>
-        <button id="AZUL" class="color azul">Azul</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pixel Art</title>
+    <link rel="shortcut icon" href="/img/icon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <h1 id="title" class="title">Paleta de Cores</h1>
+    <div class="containerColors" id="color-palette">
+      <button id="PRETO" class="color preto selected"></button>
+      <button id="VERMELHO" class="color vermelho"></button>
+      <button id="AMARELO" class="color amarelo"></button>
+      <button id="AZUL" class="color azul"></button>
     </div>
-    <br>
-    <div id="pixel-board" class="bordas" > </div> 
-        
- <script src="script.js"></script>  
-</body>
+    <br />
+    <div class="board">
+      <div id="pixel-board" class="bordas"></div>
+      <div></div>
+    </div>
+    <button id="limpar" class="clean"></button>
+
+    <script src="script.js"></script>
+  </body>
 </html>
