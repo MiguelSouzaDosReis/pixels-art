@@ -1,5 +1,5 @@
 # Project Pixels Art
 
-Nesse projeto utilizei os meus conhecimentos de html, css e js para criar um site de pixel art. Nesse site você poderá clicar na cor preta, vermelha, amarela e azul para pintar os quadrados brancos. Para acessa o site clique em _[Project-Pixels-Art](https://project-pixels-art.pages.dev/)_
+Esse projeto foi desenvolvido utilizando minhas habilidades em HTML, CSS e JavaScript para criar um site de arte em pixel. Nele, é possível selecionar as cores preta, vermelha, amarela e azul para preencher os quadrados brancos e criar sua própria arte. Além disso, há um botão com o ícone de lixeira para limpar todas as cores aplicadas nos quadrados, permitindo que você comece novamente. É uma forma divertida de explorar a criatividade e praticar suas habilidades em programação web. Para acessa o site clique em _[Project-Pixels-Art](https://project-pixels-art.pages.dev/)_
 
 <img src="pixel-art.gif" />
