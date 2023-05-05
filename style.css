@@ -1,7 +1,7 @@
 body {
   background-image: url("./img/a.png");
   background-repeat: no-repeat;
-  background-size: 200vw;
+  background-size: 100vw 100vh;
 }
 
 
