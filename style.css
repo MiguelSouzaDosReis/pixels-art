@@ -1,7 +1,7 @@
 body {
   background-image: url("./img/a.png");
   background-repeat: no-repeat;
-  background-size: 290vh;
+  background-size: 200vw;
 }
 
 
@@ -53,20 +53,16 @@ button{
   cursor: pointer;
 }
 
-.bordas {
-  position: relative;
-}
-
-.clean{
-  position: relative;
-  top: -60px;
-  left: 900px;
+.clean {
+  position: absolute;
+  left: 57vw;
   background-image: url("/img/trash.png");
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: center;
-
 }
+
+
 
 
 .vermelho {
@@ -84,11 +80,4 @@ button{
 
 .preto {
   background-color: black;
-}
-
-@media (max-width: 768px) {
-  .clean {
-    position: relative;
-    left: 350px;
-  }
 }
