@@ -54,8 +54,8 @@ button{
 }
 
 .clean {
-  position: absolute;
-  left: 57vw;
+  position: sticky;
+  left: 120vh;
   background-image: url("/img/trash.png");
   background-size: 50%;
   background-repeat: no-repeat;
