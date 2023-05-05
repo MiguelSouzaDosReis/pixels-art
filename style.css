@@ -1,7 +1,7 @@
 body {
   background-image: url("./img/a.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 290vh;
 }
 
 
@@ -28,11 +28,6 @@ https://www.youtube.com/watch?v=mEqfFw4jY7I
 }
 
 
-.bordas {
-  border: 3px solid black;
-  width: 210px;
-  height: 210px;
-}
 
 
 .pixel {
@@ -55,7 +50,12 @@ button{
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  }
+  cursor: pointer;
+}
+
+.bordas {
+  position: relative;
+}
 
 .clean{
   position: relative;
@@ -86,3 +86,9 @@ button{
   background-color: black;
 }
 
+@media (max-width: 768px) {
+  .clean {
+    position: relative;
+    left: 350px;
+  }
+}
