@@ -27,7 +27,9 @@ https://www.youtube.com/watch?v=mEqfFw4jY7I
   align-items: center;
 }
 
-
+.bordas{
+  border: 2px solid black;
+}
 
 
 .pixel {
